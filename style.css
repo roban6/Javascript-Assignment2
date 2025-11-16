@@ -1,0 +1,38 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form, #output {
+  background: white;
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ff6f61;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+body {
+  background: linear-gradient(135deg, #ffb199, #ff0844);
+  color: white;
+}
+
+form, #output {
+  background: rgba(255,255,255,0.9);
+  color: black;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}

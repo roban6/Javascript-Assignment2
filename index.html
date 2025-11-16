@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smoothie Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Smoothie Machine</h1>
+
+<!-- FORM START -->
+<form id="smoothieForm">
+
+  <label for="size">Size:</label>
+  <select id="size">
+    <option>Small</option>
+    <option>Medium</option>
+    <option>Large</option>
+  </select>
+
+  <label for="base">Base:</label>
+  <select id="base">
+    <option>Milk</option>
+    <option>Almond Milk</option>
+    <option>Oat Milk</option>
+    <option>Yogurt</option>
+  </select>
+
+  <label for="ingredients">Ingredients (comma-separated):</label>
+  <input type="text" id="ingredients" placeholder="Banana, Mango">
+
+  <label for="sweetness">Sweetness:</label>
+  <select id="sweetness">
+    <option>Unsweetened</option>
+    <option>Lightly Sweetened</option>
+    <option>Normal</option>
+    <option>Very Sweet</option>
+  </select>
+
+  <button type="button" id="orderBtn">Order Smoothie</button>
+
+</form>
+<!-- FORM END -->
+
+<!-- SMOOTHIE IMAGE -->
+<img id="smoothieImg" src="images/smoothie.png" style="display:none; width:150px; margin:20px auto;">
+
+<!-- OUTPUT AREA -->
+<div id="output"></div>
+
+<!-- JAVASCRIPT FILES -->
+<script src="script.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
